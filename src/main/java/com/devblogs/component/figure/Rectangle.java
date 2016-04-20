@@ -1,5 +1,8 @@
 package com.devblogs.component.figure;
- 
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class Rectangle extends Figure {
     private int length;
     private int width;

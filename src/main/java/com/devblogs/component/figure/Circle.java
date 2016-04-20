@@ -1,5 +1,8 @@
 package com.devblogs.component.figure;
- 
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class Circle extends Figure {
     private int radius;
     public static double PI = 3.1415;
