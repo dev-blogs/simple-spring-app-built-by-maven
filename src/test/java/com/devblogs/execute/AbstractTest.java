@@ -9,7 +9,6 @@ public abstract class AbstractTest {
 	
 	@BeforeClass
 	public static void beforeClass() {
-		// context - это коробка с бинами
 		context = new ClassPathXmlApplicationContext("context.xml");
 	}
 }

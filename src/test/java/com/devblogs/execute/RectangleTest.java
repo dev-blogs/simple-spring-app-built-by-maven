@@ -11,7 +11,6 @@ public class RectangleTest extends AbstractTest {
 	
 	@Before
 	public void setUp() throws Exception {
-		// невидимая рука достает квадратик из коробки
 		rectangle = context.getBean(Rectangle.class);
 		rectangle.setWidth(10);
 		rectangle.setLength(10);
