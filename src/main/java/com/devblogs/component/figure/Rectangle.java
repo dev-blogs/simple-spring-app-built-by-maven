@@ -3,7 +3,10 @@ package com.devblogs.component.figure;
 public class Rectangle extends Figure {
     private int length;
     private int width;
-    private String name;
+    
+    public Rectangle() {
+    	super("rectangle");
+    }
       
     public Rectangle(String name, int length, int width) {
         super(name);

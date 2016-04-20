@@ -3,7 +3,10 @@ package com.devblogs.component.figure;
 public class Circle extends Figure {
     private int radius;
     public static double PI = 3.1415;
-    private String name;
+    
+    public Circle() {
+    	super("circle");
+    }
       
     public Circle(String name, int radius) {
         super(name);
